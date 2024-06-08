@@ -7,7 +7,7 @@
 }
 
 .c-archives__year {
-    margin-bottom: 2.5rem;
+    margi-bottom: 2.5rem;
     @include fs--heading-1;
 }
 
@@ -44,6 +44,5 @@
 
     p {
         @include fs--body;
-        color: #515862;
     }
 }

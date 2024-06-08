@@ -10,3 +10,12 @@
         content: '\00a0/';
     }
 }
+
+.v-separate {
+    margin-right: .45rem;
+    margin-left: .25rem;
+    color: $c-base__01;
+    &:after{
+        content: '\00a0|';
+    }
+}
