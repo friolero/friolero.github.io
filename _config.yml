@@ -5,10 +5,10 @@ description: >
 author: Yuwei Zeng
 email: yuwei[dot]zeng0101 [at] gmail [dot] com
 baseurl: "" # the subpath of your site, e.g. /blog
-google_scholar_url: "https://scholar.google.com/citations?user=PqvAzW4AAAAJ&hl=en" # the subpath of your site, e.g. /blog
-github_url: "https://github.com/friolero" # the subpath of your site, e.g. /blog
-twitter_url: "https://x.com/pluviophile16" # the subpath of your site, e.g. /blog
-linkedin_url: "www.linkedin.com/in/yuwei-zeng0101" # the subpath of your site, e.g. /blog
+google_scholar_url: "https://scholar.google.com/citations?user=PqvAzW4AAAAJ&hl=en" 
+github_url: "https://github.com/friolero" 
+twitter_url: "https://x.com/pluviophile16" 
+linkedin_url: "https://www.linkedin.com/in/yuwei-zeng0101" 
 url: "https://yourname.github.io" # the base hostname & protocol for your site
 twitter_username: YourTwitter
 github_username:  YourGitHub
