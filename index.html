@@ -3,6 +3,8 @@ layout: page
 title: Home
 ---
 <section class="c-archives">
+<h2 class="c-archives__year">Publication</h2>
+<ul class="c-archives__list">
 {% for post in site.posts  %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
