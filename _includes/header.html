@@ -1,42 +1,39 @@
 <header class="c-page__header">
-    <h1>{{ site.description }}</h1>
-    <br>
-    <p> {{site.email}} </p>
-    {% if page.title == 'Home' %}
-        <p>
-            <a href="{{ "/" | prepend: site.google_scholar_url }}">Google Scholar</a><span
-                class="u-separate"></span> <a href="{{ "/" | prepend:
-                site.github_url}}">Github</a><span class="u-separate"></span><a href="{{ "/" | prepend:
-                site.linkedin_url}}">Linkedin</a><span class="u-separate"></span> <a
-                href="{{ "/" | prepend: site.twitter_url}}">Twitter</a>
-        </p>
-    {% else %}
-        <p>
-            <a href="{{ "/" | prepend: site.baseurl }}">&lt;&ndash;&ndash; Back</a>
-        </p>
-    {% endif %}
-    <br>
     <table>
         <tbody>
             <tr>
+                <td width="80%", stype="text-align: left;"><h1>{{
+                        site.description }}</h1><br><p> {{site.email}}</p>
+                 <p>
+                    <a href="{{ "/" | prepend: site.google_scholar_url }}">Google Scholar</a><span
+                        class="u-separate"></span> <a href="{{ "/" | prepend:
+                        site.github_url}}">Github</a><span class="u-separate"></span><a href="{{ "/" | prepend:
+                        site.linkedin_url}}">Linkedin</a><span class="u-separate"></span> <a
+                        href="{{ "/" | prepend: site.twitter_url}}">Twitter</a>
+                </p></td>
                 <td class="center-cell" valign="top"><p><img src="./photo.png", alt="",
                     width="150", align="center"></p></td>
-                <td width="80%" style="text-align: left;"><p>Hi, I'm Yuwei, a CS PhD student at National University
-                    of Singapore.  My research is motivated by deploying robots into open-ended, 
-                    unstructured environments for general and timely assistance. In particular, 
-                    I'm interested in scalable, adaptive, and reusable robot skill acquisition 
-                    through low-resource imitation learning and reinforcement learning. 
-                    <br>
-                    <br>
-                    Previously, I worked on applied research in learning for robot manipulation at 
-                    Dyson. where I was fortunate to have worked with a team of passionate 
-                    roboticists and Dr. Edward Johns there. I have also worked on a series of 
-                    interesting real-life deep learning solutions as an R&D engineer at 
-                    Panasonic R&D Center Singapore. Before that, 
-                    I obtained my bachelor's degree from Nanyang Technological University, 
-                    advised by Prof Justin Dauwels.<br><br> </p></td>
 
         </tr>
         </tbody>
     </table>
+    <br>
+    <p>
+        Hi, I'm Yuwei, a CS PhD student at National University
+        of Singapore.  My research is motivated by deploying robots into open-ended, 
+        unstructured environments for general and timely assistance. In particular, 
+        I'm interested in scalable, adaptive, and reusable robot skill acquisition 
+        through low-resource imitation learning and reinforcement learning. 
+        <br>
+        <br>
+        Previously, I worked on applied research in learning for robot manipulation at 
+        Dyson. where I was fortunate to have worked with a team of passionate 
+        roboticists and Dr. Edward Johns there. I have also worked on a series of 
+        interesting real-life deep learning solutions as an R&D engineer at 
+        Panasonic R&D Center Singapore. Before that, 
+        I obtained my bachelor's degree from Nanyang Technological University, 
+        advised by Prof Justin Dauwels.
+        <br>
+        <br> 
+    </p>
 </header>
